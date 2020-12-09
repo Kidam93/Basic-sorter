@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*  */
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+}
+/*  */
+.container{
+    max-width: 960px;
+}
+.pricing-header {
+    max-width: 700px;
+}
+/*  */
+#main-container{
+    max-width: 960px;
+}
+#card-img{
+    max-width: 250px;
+    max-height: 250px;
+    width: calc(10vw + 100px);
+}
+@media (max-width: 768px) {
+    #card-img{
+        max-width: none;
+        max-height: none;
+        width: calc(100vw - 100px);
+    }
+}
