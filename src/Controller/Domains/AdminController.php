@@ -7,7 +7,7 @@ use App\Repository\CardRepository;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
 
-class HomeController extends BaseController
+class AdminController extends BaseController
 {
     private $cardRepo;
 
@@ -16,12 +16,12 @@ class HomeController extends BaseController
     }
     
     /**
-     * @Route("/", name="home")
+     * @Route("/admin", name="admin.index")
      */
     public function index(): Response{
         $cards = $this->cardRepo->findAll();
 
-        return $this->render('domains/home.html.twig', [
+        return $this->render('domains/admin.html.twig', [
             'cards' => $cards
         ]);
     }
