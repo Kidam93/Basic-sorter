@@ -1,11 +1,11 @@
 <?php
 
-namespace App\Controller\Domains;
+namespace App\Application\Controller;
 
-use App\Controller\BaseController;
+use App\Application\BaseController;
 use Symfony\Component\Routing\Annotation\Route;
-use Symfony\Component\Security\Core\Authorization\Voter\AuthenticatedVoter;
 use Symfony\Component\Security\Http\Authentication\AuthenticationUtils;
+use Symfony\Component\Security\Core\Authorization\Voter\AuthenticatedVoter;
 
 class SecurityController extends BaseController
 {

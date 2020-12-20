@@ -32,6 +32,6 @@ security:
         # - { path: ^/profile, roles: ROLE_USER }
 
     encoders:
-        App\Entity\Admin: plaintext
-            # algorithm: bcrypt
-            # cost: 12
+        App\Entity\Admin: 
+            algorithm: bcrypt
+            cost: 12

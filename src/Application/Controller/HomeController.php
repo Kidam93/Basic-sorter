@@ -1,9 +1,9 @@
 <?php
 
-namespace App\Controller\Domains;
+namespace App\Application\Controller;
 
-use App\Controller\BaseController;
 use App\Repository\CardRepository;
+use App\Application\BaseController;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
 use Symfony\Component\HttpFoundation\Session\SessionInterface;
