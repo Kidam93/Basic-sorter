@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*  */
+#main-container{
+    max-width: 960px;
+}
+#container-show{
+    display: block;
+}
+#container-show strong{
+    display: block;
+}
+#img-show{
+    width: calc(250px + 5vw);
+    height: calc(250px + 5vw);
+}
