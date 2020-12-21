@@ -16,4 +16,5 @@ class CardTest extends KernelTestCase{
         $cards = self::$container->get(CardRepository::class)->count([]);
         $this->assertEquals(3, $cards);
     }
+
 }

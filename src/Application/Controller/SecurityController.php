@@ -11,6 +11,7 @@ class SecurityController extends BaseController
 {
     /**
      * @Route("/login", name="login")
+     * 
      */
     public function index(AuthenticationUtils $authentificationUtils){
         $lastUsername = $authentificationUtils->getLastUsername();
