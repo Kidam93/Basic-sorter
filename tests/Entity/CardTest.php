@@ -1,5 +1,5 @@
 <?php
-namespace App\Tests;
+namespace App\Tests\Entity;
 
 use App\Entity\Card;
 use App\DataFixtures\CardFixtures;
@@ -50,5 +50,4 @@ class CardTest extends KernelTestCase{
         $error = self::$container->get('validator')->validate($card);
         return $this->assertCount($number, $error);
     }
-
 }

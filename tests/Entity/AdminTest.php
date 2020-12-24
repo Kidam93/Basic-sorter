@@ -1,5 +1,5 @@
 <?php
-namespace App\Tests;
+namespace App\Tests\Entity;
 
 use App\Entity\Admin;
 use App\DataFixtures\AdminFixtures;
@@ -9,7 +9,7 @@ use Symfony\Component\HttpFoundation\RequestStack;
 use Symfony\Bundle\FrameworkBundle\Test\WebTestCase;
 use Symfony\Bundle\FrameworkBundle\Test\KernelTestCase;
 
-class SecurityTest extends WebTestCase{
+class AdminTest extends WebTestCase{
 
     use FixturesTrait;
 
